@@ -123,21 +123,7 @@ document.getElementById('bp').addEventListener('click', addFruit);
 
 ///// BUTTON CLICK /////
 
-function addFruit(){
-    document.getElementById('fruit').innerHTML = '';
-    for (let i = 0; i < thisFruits.length; i++){
-      var card = `<div class="card"><a href="#">
-                  <img src=${thisFruits[i].img} alt="" style="width:100%">
-                    <div class="container">
-                      <h4>${thisFruits[i].name}</h4>
-                      <h5>${thisFruits[i].price}</h5>
-                    </div></a>
-                  </div>`;
-      var div = document.createElement('P');
-      div.innerHTML = card;
-      document.getElementById('fruit').appendChild(div);
-    };
-  }
+
   
 
 
