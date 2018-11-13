@@ -1,0 +1,92 @@
+body{
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+}
+.shop {
+    float: left;
+    width: 60%;
+    border: 1px solid #000000;
+    background-color: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+header h1 {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    font-family: 'Londrina Outline', cursive;
+    letter-spacing: .1em;
+    border: 1px solid #000000;
+}
+.red {
+    color:red;
+}
+.orange {
+    color: orange;
+}
+.yellow {
+    color: yellow;
+}
+.green {
+    color:green;
+}
+.blue {
+    color:blue;
+}
+.purple {
+    color: purple;
+}
+h2 {
+    padding: 1%
+}
+h3 {
+    display: inline;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 1%;
+    margin: 1%;
+}
+#red:hover {
+    background-color: red;
+    color: white;
+}
+
+#oy:hover {
+    background-color: gold;
+    color: white;
+}
+#green:hover {
+    background-color: green;
+    color: white;
+}
+#bp:hover {
+    background-color: blue;
+    color: white;
+}
+#white:hover {
+    background-color: black;
+    color: white;
+}
+/*
+.button:hover, :visited {
+    border: black;
+}
+*/
+
+#fruit {
+    height: 60%;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    padding: 1%;
+    margin: 1%;
+}
+aside { 
+    font-family: 'Open Sans', sans-serif;
+    width: 40%;
+    color: #000000;
+    border: 1px solid #000000;
+}
